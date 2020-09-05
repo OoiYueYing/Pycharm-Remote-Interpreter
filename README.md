@@ -8,6 +8,7 @@ Besides, ensure that you have SSH connection to your remote machine
 
 # Virtual environment setup to isolate your project's environment
 Assumption: our desired python version is python3.8
+
 Perform the below on the remote machine
 
  Follow the command to create a new environment
@@ -25,12 +26,12 @@ mkvirtualenv --python=/usr/bin/python3.8 nameOfEnvironment
  ```
  deactivate
  ```
-this is the directory of where the virtual environment is stored at
+This is the directory of where the virtual environment is stored at
 ```
 /home/<usr>/.virtualenvs/<nameOfEnvironment>/bin/<pythonversion>
 ```
 
-link your virtual environment to your desired python version like this
+Link your virtual environment to your desired python version like this
 ```
 virtualenv --python=/usr/bin/python3.8 ~/.virtualenv/<nameOfEnvironement>/
 ```
