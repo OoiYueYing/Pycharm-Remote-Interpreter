@@ -3,6 +3,7 @@ Instructions on how to connect to a remote interpreter from Pycharm which allows
 
 # Installation required on remote server
 virtualenvwrapper
+
 Besides, ensure that you have SSH connection to your remote machine
 
 # Virtual environment setup to isolate your project's environment
