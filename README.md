@@ -14,6 +14,7 @@ Perform the below on the remote machine
  Follow the command to create a new environment
  ```
 which python3 # Output: /usr/bin/python3
+source `which virtualenvwrapper.sh`
 mkvirtualenv --python=/usr/bin/python3.8 nameOfEnvironment
  ```
  
