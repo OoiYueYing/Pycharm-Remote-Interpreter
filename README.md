@@ -45,7 +45,7 @@ To run your project in the specifies virtual environment, update your python int
 # How to run from Pycharm
 
 Follow this link for configuring a new remote Python interpreter via SSH credentials. This settings will help you sync your project folder immediately to the remote
-server(you can choose the folder where you want to deploy your project to) and select your choice of python interpreter on the remote machine you are running on.
+server(you can choose the folder where you want to deploy your project to-only works with the default /tmp folder) and select your choice of python interpreter on the remote machine you are running on.
 https://www.jetbrains.com/help/pycharm/configuring-remote-interpreters-via-ssh.html?_ga=2.111787780.1017321647.1599096644-245971671.1599096644#ssh
 
 Next Run/Debug your application
